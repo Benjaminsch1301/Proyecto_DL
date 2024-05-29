@@ -1,0 +1,44 @@
+dataset: coco
+vg_dir: datasets/vg
+coco_dir: /Users/ben_rss/Downloads/Deep Learning 2024-1/datasets/coco
+batch_size: 8
+niter: 2
+image_size: 64
+object_size: 32
+embedding_dim: 64
+z_dim: 64
+learning_rate: 0.0004
+resi_num: 6
+clstm_layers: 3
+lambda_img_adv: 1.0
+lambda_obj_adv: 1.0
+lambda_obj_cls: 1.0
+lambda_z_rec: 10.0
+lambda_img_rec: 1.0
+lambda_kl: 0.01
+resume_iter: 'l'
+log_step: 10
+tensorboard_step: 1
+save_step: 10
+use_tensorboard: 'true'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
